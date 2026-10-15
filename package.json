@@ -1,0 +1,47 @@
+{
+  "name": "edulife-it-school",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-page static website for Edulife IT School — data-driven markup, one dependency-free Node build script, no framework.",
+  "license": "MIT",
+  "author": "Edulife IT School",
+  "homepage": "https://github.com/<your-username>/<your-repo>#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-username>/<your-repo>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<your-username>/<your-repo>/issues"
+  },
+  "keywords": [
+    "static-site",
+    "static-site-generator",
+    "education",
+    "school-website",
+    "multi-page",
+    "no-dependencies"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "commonjs",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/serve.js",
+    "preview": "node scripts/serve.js",
+    "check": "node scripts/check.js",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "rebuild": "npm run clean && npm run build",
+    "verify": "npm run build && npm run check",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.13.0",
+    "prettier": "^3.3.3"
+  }
+}

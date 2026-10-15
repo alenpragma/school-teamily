@@ -1,0 +1,21 @@
+# Build output — generated, never formatted by hand.
+dist/
+
+# Dependencies
+node_modules/
+
+# Generated / vendored content that must stay byte-stable.
+src/data/
+public/
+
+# Docs and metadata
+LICENSE
+*.min.js
+*.min.css
+
+# Local scratch
+*check/
+qc/
+qa_v*/
+shots/
+_shots/

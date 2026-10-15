@@ -1,0 +1,26 @@
+<!-- ==========================================================================
+     components/footer.html — site footer (shared by every page)
+     --------------------------------------------------------------------------
+     Tokens filled by build.js, all sourced from data/site.json:
+       {{FOOTER_COLUMNS}}  the three link columns
+       {{FOOTER_NOTE}}     copyright line
+       {{FOOTER_STRAP}}    strap-line under the copyright
+     ========================================================================== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <span class="mark" aria-hidden="true"><img src="assets/images/logo-seal.png" alt="" width="44" height="44" /></span>
+          <span class="txt"><b>Edulife</b><span>IT School</span></span>
+        </div>
+        <p>{{FOOTER_DESCRIPTION}}</p>
+      </div>
+      {{FOOTER_COLUMNS}}
+    </div>
+    <div class="foot-bottom">
+      <span>{{FOOTER_NOTE}}</span>
+      <span>{{FOOTER_STRAP}}</span>
+    </div>
+  </div>
+</footer>
