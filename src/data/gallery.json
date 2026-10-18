@@ -84,6 +84,13 @@
       "image": "assets/images/classroom.png",
       "alt": "Edulife classroom interior",
       "size": ""
+    },
+     {
+      "title": "A green campus",
+      "category": "Campus",
+      "image": "assets/images/campus.png",
+      "alt": "Edulife classroom interior",
+      "size": ""
     }
   ]
 }
