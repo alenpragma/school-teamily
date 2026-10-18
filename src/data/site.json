@@ -13,24 +13,24 @@
     "themeColor": "#101B2D"
   },
   "contact": {
-    "phone": "+880 1800 000000",
-    "phoneHref": "tel:+8801800000000",
-    "email": "hello@edulife.edu.bd",
-    "emailHref": "mailto:hello@edulife.edu.bd",
+    "phone": "+880 1519575226",
+    "phoneHref": "tel:+8801519575226",
+    "email": "helloedulife@gmail.com",
+    "emailHref": "mailto:helloedulife@gmail.com",
     "hours": "Sunday – Thursday, 8:00 AM – 3:00 PM",
     "replyTime": "We typically respond within one working day.",
     "cards": [
       {
         "icon": "phone",
         "title": "Call the school office",
-        "text": "+880 1800 000000",
-        "href": "tel:+8801800000000"
+        "text": "+880 1519575226",
+        "href": "tel:+8801519575226"
       },
       {
         "icon": "mail",
         "title": "Email us",
-        "text": "hello@edulife.edu.bd",
-        "href": "mailto:hello@edulife.edu.bd"
+        "text": "helloedulife@gmail.com",
+        "href": "mailto:helloedulife@gmail.com"
       },
       {
         "icon": "clock",
@@ -57,25 +57,25 @@
   ],
   "primaryCta": { "label": "Apply now", "href": "admission.html" },
   "social": [
-    { "label": "Facebook", "icon": "facebook", "href": "https://facebook.com/" },
-    { "label": "YouTube", "icon": "youtube", "href": "https://youtube.com/" },
-    { "label": "WhatsApp", "icon": "whatsapp", "href": "https://wa.me/8801800000000" },
-    { "label": "Email", "icon": "mail", "href": "mailto:hello@edulife.edu.bd" }
+    { "label": "Facebook", "icon": "facebook", "href": "https://facebook.com/edulifeitschool" },
+    { "label": "YouTube", "icon": "youtube", "href": "https://youtube.com/edulifeitschool" },
+    { "label": "WhatsApp", "icon": "whatsapp", "href": "https://wa.me/8801831899175" },
+    { "label": "Email", "icon": "mail", "href": "mailto:helloedulife@gmail.com" }
   ],
   "campuses": [
     {
       "id": "khagrachari",
       "name": "Khagrachari Campus",
-      "address": "College Gate, Khagrachari 4400, Chattogram Hill Tracts",
+      "address": "Shantinagar, Khagrachari 4400, Chattogram Hill Tracts",
       "phone": "+880 1800 000001",
-      "email": "khagrachari@edulife.edu.bd"
+      "email": "helloedulife@gmail.com"
     },
     {
       "id": "luxmichari",
       "name": "Luxmichari Campus",
-      "address": "Luxmichari Sadar, Khagrachari 4400, Chattogram Hill Tracts",
-      "phone": "+880 1800 000002",
-      "email": "luxmichari@edulife.edu.bd"
+      "address": "Upazila Chattar, Luxmichari Sadar, Chattogram Hill Tracts",
+      "phone": "+880 1511899175",
+      "email": "helloedulife@gmail.com"
     }
   ],
   "hero": {
