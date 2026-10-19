@@ -67,14 +67,14 @@
       "id": "khagrachari",
       "name": "Khagrachari Campus",
       "address": "Shantinagar, Khagrachari 4400, Chattogram Hill Tracts",
-      "phone": "+880 1800 000001",
+      "phone": "+880 1519575225, +880 1519575226",
       "email": "helloedulife@gmail.com"
     },
     {
       "id": "luxmichari",
       "name": "Luxmichari Campus",
       "address": "Upazila Chattar, Luxmichari Sadar, Chattogram Hill Tracts",
-      "phone": "+880 1511899175",
+      "phone": "+880 1511899175, +880 1519575226",
       "email": "helloedulife@gmail.com"
     }
   ],
@@ -114,9 +114,9 @@
   ],
   "stats": [
     { "value": "2015", "suffix": "", "label": "Education journey began" },
-    { "value": "2", "suffix": "", "label": "Active campuses" },
-    { "value": "10", "suffix": "+", "label": "Years growing" },
-    { "value": "3", "suffix": "", "label": "Learning pillars" }
+    { "value": "12", "suffix": "", "label": "Active Teachers" },
+    { "value": "12", "suffix": "+", "label": "Years growing" },
+    { "value": "2", "suffix": "", "label": "Active Campuses" }
   ],
   "features": [
     {

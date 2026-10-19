@@ -21,6 +21,13 @@
     }
   ],
   "staff": [
+      {
+      "name": "Topajjol Hossain Rasel",
+      "role": "Head Teacher",
+      "campus": "Luxmichari Campus",
+      "image": "assets/images/t-topajjol.jpg",
+      "bio": "Helping every child find a confident voice and a love of learning."
+    },
     {
       "name": "Razia Sultana Urmi",
       "role": "Assistant Teacher",
