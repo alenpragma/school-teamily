@@ -214,7 +214,7 @@
       },
       {
         "id": "edulife-kids",
-        "monogram": "KD",
+        "logo": "src/assets/images/edulife-kids-logo.png",
         "name": "Edulife Kids - After School Programm",
         "tagline": "Playful early-years programmes that build confident young learners.",
         "href": "https://www.edulifekids.com",
@@ -238,7 +238,7 @@
       },
       {
         "id": "edulife-tech",
-        "monogram": "TC",
+        "logo": "src/assets/images/edulife-tech-logo.png",
         "name": "Edulife Tech",
         "tagline": "Coding labs, robotics kits and teacher training for the digital age.",
         "href": "https://www.edulifetechbd.com",

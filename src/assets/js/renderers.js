@@ -299,7 +299,7 @@
    */
   function initiativeCard(it, i) {
     var tone = /^(teal|amber|coral)$/.test(it.tone || '') ? ' tone-' + it.tone : ' tone-teal';
-    var mono = it.monogram || String(it.name || '').slice(0, 2).toUpperCase();
+    var mono = it.logo || String(it.name || '').slice(0, 2).toUpperCase();
     return '<a class="initiative reveal' + d(i) + tone + '" href="' + esc(it.href) + '">'
       + '<span class="ini-top">'
       +   '<span class="ini-mono" aria-hidden="true">' + esc(mono) + '</span>'
