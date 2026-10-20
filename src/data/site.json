@@ -199,7 +199,7 @@
       {
         "id": "edulife-it",
         "monogram": "IT",
-        "name": "Edulife IT",
+        "name": "Edulife IT Institute",
         "tagline": "The school itself — English-focused, IT-integrated primary education.",
         "href": "index.html",
         "tone": "teal"
@@ -209,15 +209,15 @@
         "monogram": "AG",
         "name": "Edulife Agency",
         "tagline": "Branding, design and digital growth for schools and small teams.",
-        "href": "contact.html",
+        "href": "https://www.edulife.agency ",
         "tone": "amber"
       },
       {
         "id": "edulife-kids",
         "monogram": "KD",
-        "name": "Edulife Kids",
+        "name": "Edulife Kids - After School Programm",
         "tagline": "Playful early-years programmes that build confident young learners.",
-        "href": "admission.html",
+        "href": "https://www.edulifekids.com",
         "tone": "coral"
       },
       {
@@ -225,7 +225,7 @@
         "monogram": "PB",
         "name": "Edulife Publications",
         "tagline": "Workbooks, phonetics material and learning resources for families.",
-        "href": "blog.html",
+        "href": "https://www.edulifepublications.com",
         "tone": "teal"
       },
       {
@@ -233,7 +233,7 @@
         "monogram": "FL",
         "name": "FoodLife",
         "tagline": "Wholesome school meals and everyday nutrition for growing children.",
-        "href": "contact.html",
+        "href": "https://www.foodlife.com",
         "tone": "amber"
       },
       {
@@ -241,7 +241,7 @@
         "monogram": "TC",
         "name": "Edulife Tech",
         "tagline": "Coding labs, robotics kits and teacher training for the digital age.",
-        "href": "gallery.html",
+        "href": "https://www.edulifetechbd.com",
         "tone": "coral"
       }
     ]
