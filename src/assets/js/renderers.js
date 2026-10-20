@@ -297,20 +297,28 @@
    * Data shape (data/site.json → initiatives.items[]):
    *   { id, monogram, name, tagline, href, tone }
    */
-  function initiativeCard(it, i) {
-    var tone = /^(teal|amber|coral)$/.test(it.tone || '') ? ' tone-' + it.tone : ' tone-teal';
-    var mono = it.logo || String(it.name || '').slice(0, 2).toUpperCase();
-    return '<a class="initiative reveal' + d(i) + tone + '" href="' + esc(it.href) + '">'
-      + '<span class="ini-top">'
-      +   '<span class="ini-mono" aria-hidden="true">' + esc(mono) + '</span>'
-      +   '<span class="ini-arrow">' + icons.arrow + '</span>'
-      + '</span>'
-      + '<span class="ini-body">'
-      +   '<b class="ini-name">' + esc(it.name) + '</b>'
-      +   '<span class="ini-tag">' + esc(it.tagline) + '</span>'
-      + '</span>'
-      + '</a>';
-  }
+```javascript
+function initiativeCard(it, i) {
+  var tone = /^(teal|amber|coral)$/.test(it.tone || '')
+    ? ' tone-' + it.tone
+    : ' tone-teal';
+
+  var logo = it.logo
+    ? '<img class="ini-logo" src="' + esc(it.logo) + '" alt="' + esc(it.name || '') + ' logo">'
+    : esc(String(it.monogram || it.name || '').slice(0, 2).toUpperCase());
+
+  return '<a class="initiative reveal' + d(i) + tone + '" href="' + esc(it.href) + '">'
+    + '<span class="ini-top">'
+    +   '<span class="ini-mono" aria-hidden="true">' + logo + '</span>'
+    +   '<span class="ini-arrow">' + icons.arrow + '</span>'
+    + '</span>'
+    + '<span class="ini-body">'
+    +   '<b class="ini-name">' + esc(it.name) + '</b>'
+    +   '<span class="ini-tag">' + esc(it.tagline) + '</span>'
+    + '</span>'
+    + '</a>';
+}
+```
 
   /* ------------------------------------------------------------- admission */
 
