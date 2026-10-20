@@ -289,13 +289,13 @@
   /**
    * .initiative — one card in the "Edulife family" grid on the homepage.
    *
-   * The visual identity is a two-letter monogram tinted by `tone`, so adding an
+   * The visual identity is a two-letter logo tinted by `tone`, so adding an
    * initiative needs no artwork at all — just a name, a tagline and one of the
    * three palette tones (teal / amber / coral). The whole card is a single <a>,
    * so the tap target is the full tile rather than just the arrow.
    *
    * Data shape (data/site.json → initiatives.items[]):
-   *   { id, monogram, name, tagline, href, tone }
+   *   { id, logo, name, tagline, href, tone }
    */
 ```javascript
 function initiativeCard(it, i) {
@@ -305,7 +305,7 @@ function initiativeCard(it, i) {
 
   var logo = it.logo
     ? '<img class="ini-logo" src="' + esc(it.logo) + '" alt="' + esc(it.name || '') + ' logo">'
-    : esc(String(it.monogram || it.name || '').slice(0, 2).toUpperCase());
+    : esc(String(it.logo || it.name || '').slice(0, 2).toUpperCase());
 
   return '<a class="initiative reveal' + d(i) + tone + '" href="' + esc(it.href) + '">'
     + '<span class="ini-top">'
