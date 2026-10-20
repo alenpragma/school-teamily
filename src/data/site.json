@@ -198,7 +198,7 @@
     "items": [
       {
         "id": "edulife-it",
-        "logo": "/src/assets/images/edulife-it-logo.png",
+        "logo": "src/assets/images/edulife-it-logo.png",
         "name": "Edulife IT Institute",
         "tagline": "The school itself — English-focused, IT-integrated primary education.",
         "href": "https://www.edulife.bd",
@@ -206,7 +206,7 @@
       },
       {
         "id": "edulife-agency",
-        "monogram": "AG",
+        "logo": "src/assets/images/edulife-agency-logo.png",
         "name": "Edulife Agency",
         "tagline": "Branding, design and digital growth for schools and small teams.",
         "href": "https://www.edulife.agency ",
@@ -222,7 +222,7 @@
       },
       {
         "id": "edulife-publications",
-        "logo": "/src/assets/images/edulife-publications-logo.png",
+        "logo": "src/assets/images/edulife-publications-logo.png",
         "name": "Edulife Publications",
         "tagline": "Workbooks, phonetics material and learning resources for families.",
         "href": "https://www.edulifepublications.com",
@@ -230,7 +230,7 @@
       },
       {
         "id": "foodlife",
-        "logo": "/src/assets/images/edulife-itschool-logo.png",
+        "logo": "src/assets/images/edulife-itschool-logo.png",
         "name": "FoodLife",
         "tagline": "Wholesome school meals and everyday nutrition for growing children.",
         "href": "https://www.foodlife.com",
