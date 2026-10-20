@@ -1042,6 +1042,20 @@ footer{background:var(--ink);color:rgba(251,247,240,.72);padding:70px 0 34px;mar
   width:52px;height:52px;flex:0 0 auto;border-radius:15px;display:grid;place-items:center;
   font-family:'Fraunces',serif;font-weight:700;font-size:1.02rem;letter-spacing:.02em;
 }
+.ini-mono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ini-logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .ini-arrow{
   width:34px;height:34px;flex:0 0 auto;border-radius:50%;display:grid;place-items:center;
   border:1.5px solid var(--line);color:var(--ink-3);
